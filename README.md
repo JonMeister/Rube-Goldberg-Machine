@@ -46,29 +46,6 @@ La máquina está dividida en **5 fases mecánicas interconectadas**:
 [Pirámide de Bloques Meta] 💥 (Colapso total de la estructura)
 ```
 
-### 1. Fase 1: El Despegue (Bola 1 - Amarilla)
-- La simulación inicia en una plataforma elevada donde reposa la primera esfera (`Ball_1_Starter`), de color amarillo/dorado.
-- La bola rueda a lo largo de una rampa de madera inclinada a 24° provista de rieles laterales que evitan descarrilamientos por inercia centrífuga.
-
-### 2. Fase 2: El Laberinto de Pines y la Segunda Bola
-- La bola 1 ingresa a una sección intermedia equipada con una matriz de clavos/pines verticales de acero (estilo *Plinko* o *Pachinko*).
-- Los sucesivos rebotes dosifican la energía de la esfera hasta dirigirla directamente contra la segunda esfera (`Ball_2_Secondary`), de color azul, transfiriéndole su impulso lineal.
-
-### 3. Fase 3: La Reacción en Cadena (Fichas de Dominó)
-- La bola azul avanza hacia una plataforma central donde impacta la primera ficha de una hilera de dominós colocados verticalmente (`Dominoes_Set_1` / `Dominoes_Set_2`).
-- Se desencadena el clásico **efecto dominó**, donde el torque gravitatorio de cada pieza derriba sucesivamente a la siguiente con gran precisión.
-
-### 4. Fase 4: El Martillo Péndulo
-- La última pieza de la cadena de dominós impacta contra el gatillo (`Hammer_Latch`) que sostiene un martillo pesado suspendido (`Hammer_Pendulum`).
-- Al liberarse el soporte, el martillo gira libremente sobre su eje gracias a una articulación tipo bisagra (`HingeJoint`), transformando su energía potencial gravitatoria en un contundente golpe de energía cinética.
-
-### 5. Fase 5: Impacto y Derribo Final (Bola 3 - Roja y Bloques)
-- La cabeza metálica del martillo impacta con fuerza contra la tercera bola (`Ball_3_Final`), de color rojo, que descansa sobre su pedestal.
-- La bola 3 sale impulsada a gran velocidad por la `Final_Ramp` hacia la base del escenario.
-- **Meta Final:** La esfera colisiona de lleno contra una pirámide de bloques objetivo (`Final_Target_Blocks`: 3 en la base, 2 en el nivel medio y 1 en la cúspide), provocando la dispersión y el colapso total de la estructura.
-
----
-
 ## 🛠️ Arquitectura Técnica y Físicas (Unity PhysX)
 
 | Componente | Configuración Técnica | Función en la Máquina |
